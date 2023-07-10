@@ -5,7 +5,7 @@
 updateBG = () => {
   // console.log(document.querySelector("body").style.backgroundColor);
   const x = document.querySelector("body").style.backgroundColor;
-  document.querySelector("body").style.backgroundColor = (x === "tomato") ? "azure" : "tomato";
+  document.querySelector("body").style.backgroundColor = (x === "blue") ? "azure" : "blue";
 }
 
 document.querySelector("#myBtn").addEventListener("click", updateBG);
